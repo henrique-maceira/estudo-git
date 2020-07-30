@@ -1,0 +1,2 @@
+# estudo git
+ primeiro estudo 

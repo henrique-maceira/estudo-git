@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Exemplo de imagem de fundo em e-mail</title>
+    <style>
+      /* Define a imagem de fundo */
+      body {
+        background-image: url("caminho/para/imagem.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+      
+      /* Define o estilo do texto */
+      p {
+        font-size: 24px;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Este é um exemplo de texto que aparece em cima da imagem de fundo</p>
+  </body>
+</html>

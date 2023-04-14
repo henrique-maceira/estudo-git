@@ -25,3 +25,56 @@
     <p>Este é um exemplo de texto que aparece em cima da imagem de fundo</p>
   </body>
 </html>
+
+≈====================================
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email de Exemplo</title>
+    <style type="text/css">
+      /* Define a cor de fundo do corpo do email */
+      body {
+        background-color: #f2f2f2;
+      }
+
+      /* Define as propriedades do quadrado branco */
+      #quadrado {
+        background-color: #ffffff;
+        height: 400px;
+        margin: 0 auto;
+        position: relative;
+        width: 400px;
+      }
+
+      /* Define as propriedades da faixa azul */
+      #faixa {
+        background-color: #0072c6;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      /* Define as propriedades do ícone de robô */
+      #icone {
+        background-image: url('caminho/do/icone.png');
+        background-repeat: no-repeat;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Define o quadrado branco -->
+    <div id="quadrado">
+      <!-- Define a faixa azul -->
+      <div id="faixa"></div>
+      <!-- Define o ícone de robô -->
+      <div id="icone"></div>
+    </div>
+  </body>
+</html>
